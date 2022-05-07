@@ -7,8 +7,31 @@ body{
     height: 500px;
 }
 
-.heroSection a{
+
+
+.navBar{
+    display:flex;
+    position:absolute;
+    right:300px;
+    top:15px;
+    font-size: 18px;
+    color:#F9FAF8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.headerLogo{
+    
     color: #F9FAF8;
-    margin-left:300px;
+    position:fixed;
+    left:300px;
     font-size: 24px;
-    font-family: monospace,calibri;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:15px;
+    
+}
