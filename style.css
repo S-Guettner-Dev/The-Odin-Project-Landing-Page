@@ -20,8 +20,35 @@ body{
     width: 500px;
     justify-content: space-between;
     
-
 }
+
+/* Different States of links */
+
+.navBar a:link{
+    color:#F9FAF8;
+    text-decoration: none;
+   
+}
+
+.navBar a:visited{
+    color:#F9FAF8;
+    text-decoration: none;
+   
+}
+
+.navBar a:hover{
+    color:#F9FAF8;
+    text-decoration: none;
+   
+}
+
+.navBar a:active{
+    color:lightgray
+    text-decoration: none;
+   
+}
+
+/* Different States of links ^^*/
 
 
 
