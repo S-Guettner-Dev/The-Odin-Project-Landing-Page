@@ -116,11 +116,14 @@ body{
     color:#1F2937;
     font-size: 36px;
     font-family:'Roboto', sans-serif;
-    
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
 
     
     
-}
+
 
 
 .informationContainer {
@@ -129,9 +132,52 @@ body{
    height:800px;
 }
 
-.text p {
-    margin-top: 0px;
-    text-align: center;
-    margin-top: 30px;
+    
+
+.flexboxContainer{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    background-color black;
+    position:absolute;
+    top:800px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:1200px;
+    height: 300px;
 }
 
+
+/*infoBlockContainer */
+
+.flexboxContainer div{
+    width:150px;
+    height: 150px;
+    border-width:5px ;
+    border-radius: 10%;
+    border-color: #3882F6;
+    border-style:solid;
+    
+    
+}
+
+
+#infoBlock1 p{
+    position: absolute;
+    top:150px;
+    left:110px;
+    max-width: 100px;
+}
+
+#infoBlock2{
+  
+
+#infoBlock3{
+    
+}
+
+#infoBlock4{
+    
+}
