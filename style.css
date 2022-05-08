@@ -239,3 +239,36 @@ body{
     font-family:'Roboto', sans-serif;
     
 }
+
+.signUpSection{
+    background-color:#E5E7EB;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:1600px;
+}
+
+#signUpBlock{
+    background-color:#3882F6;
+    position: absolute;
+    left: 445px;
+    top:110px;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#signUpBlock p{
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 15px;
+    position: absolute;
+    top:42px;
+    left:180px;
+
+}
+
+#signUpBlock strong{
+    font-family: 'Roboto', sans-serif;   
+    font-size: 18px; 
+}
