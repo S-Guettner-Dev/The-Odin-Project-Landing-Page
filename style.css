@@ -93,6 +93,12 @@ body{
 
 }
 
+.heroSecondaryText div{
+
+    
+
+}
+
 .imageBox{
     background-color: black;
     width: 820px;
@@ -272,3 +278,62 @@ body{
     font-family: 'Roboto', sans-serif;   
     font-size: 18px; 
 }
+
+.signUpButton{
+
+    background-color:#3882F6;
+    border-width: 3px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 5px;
+    width: 150px;
+    
+    
+    position: absolute;
+    top:1763px;
+    left:1200px;
+    
+   
+    
+}
+.signUp{
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    width: 150px;
+    height: 50px;
+    border-width: 1px;
+}
+
+.signUpButton a{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.signUpButton a:link{
+
+    color: #e5e7eb;
+    text-decoration: none;
+    border-width: 5px;
+    border-color: #E5E7EB;
+
+}
+
+#signUpLinkHero{
+    text-decoration: none;
+    color: #E5E7EB;
+    position: absolute;
+    top:80px;
+
+    
+
+
+}
+
+#signUpLinkHero a:link{
+    color:#E5E7EB
+}
+
+
