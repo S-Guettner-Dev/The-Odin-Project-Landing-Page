@@ -99,13 +99,21 @@ body{
    }
 
 
-   /* Not working  */
+   
 #image img{
-    max-width: 100%;
-    object-fit: cover;
+    height: 100%;
+    width: 100%;
         }
+        
+    
+.text p{
+    color:#1F2937;
+    font-size: 36px;
+    font-family:monospace;
+    
 
-    /**not Working ^^ img doesn´t fill div container      
-
+    
+    
+}
 
 
